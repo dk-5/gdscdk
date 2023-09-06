@@ -1,0 +1,378 @@
+#logo
+{
+   
+    height:60px;
+    width:175px;
+    padding-right:770px;
+    
+    animation-name:logo;
+    animation-duration:2s;
+    animation-iteration-count:1;
+
+
+}
+@keyframes logo {
+    from{
+       width:50px;
+    }
+    to 
+    {
+       width:175px;
+    }
+}
+/*body{
+    background-image:url(gdscdj.png);
+    background-repeat:no-repeat;
+    background-position:center;
+
+}*/
+.navbar
+{
+   
+    
+    display:flex;
+}
+.navbar ul
+{
+    overflow: auto;
+    display:flex;
+    background-color: aliceblue;
+    border-radius:2cm;
+}
+.navbar li{
+    list-style:none;
+    
+    padding:5px 15px;
+    margin:15px 15px;
+    
+   
+    
+    
+    
+}
+.navbar a{
+    text-decoration:none;
+    color:grey;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:110%;
+    
+}
+a:hover
+{
+    color:red;
+    
+}
+.container{
+    padding-top:90px;
+    background-color: antiquewhite;
+  
+    
+
+}
+.head
+{
+    padding-bottom:50px;
+    
+}
+
+.e1
+{
+    
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+#flu{
+    height:300px;
+    width:600px;
+    padding:15px;
+    border: 3px solid red;
+    border-radius:2cm;
+    animation-name:flu;
+    animation-duration:2s;
+    animation-iteration-count:1;
+
+}
+@keyframes flu {
+    from
+    {
+        width:300px;
+    }
+    to 
+    {
+        width:600px;
+    }
+    
+}
+#csi
+{
+    height: 300px;
+    width:600px;
+    padding:15px;
+    border: 3px solid red;
+    border-radius:2cm;
+    animation-name:csi;
+    animation-duration:2s;
+    animation-iteration-count:1;
+
+}
+@keyframes csi 
+{
+    from
+    {
+        width:300px;
+    }
+    to 
+    {
+        width:600px;
+    }
+    
+}
+.textf 
+{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width:600px;
+    display:block;
+}
+.textf button
+{
+    background-color:white;
+    border-radius:2cm;
+    border-color:3px solid red;
+    font-size:100%;
+    text-decoration:none;
+}
+.textc button
+{
+    background-color:white;
+    border-radius:2cm;
+    border-color:3px solid red;
+    font-size:100%;
+    text-decoration:none;
+}    
+
+.textc
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width:600px;
+    display:block;
+}
+
+.nav2
+{
+background-color:aliceblue;
+border:3px solid rgba(255, 0, 0, 0.226);
+border-radius:2cm;
+}
+.nav2 ul{
+overflow:auto;
+display:flex;
+
+}
+.nav2 li
+{
+list-style:none;
+
+padding:5px 200px;
+font-size:125%;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.n
+{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.nav2 a{
+    color:blue;
+    text-decoration:none;
+    
+    
+    
+}
+.nav2 a:hover {
+    color: rgb(255, 0, 0);
+}
+.container h1{
+    text-align: center;
+    color: rgb(247, 0, 9);
+    padding:5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container2
+{
+    padding:15px 15px;
+    background-color: azure;
+   
+}
+.h2
+{
+    padding-bottom:50px;
+}
+.container2 h1
+{
+    color: rgb(255, 1, 1);
+    text-align: center;
+}
+.cources
+{
+    display:flex;
+    justify-content: space-between;
+}
+.react 
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:100%;
+}
+#react
+{
+    border:3px solid rgb(252, 0, 0);
+    border-radius:2cm;
+    
+}
+
+#js
+{
+    height:75%;
+    width:125%;
+    border:2px solid rgb(0, 0, 0);
+    border-radius:2cm;
+}
+.js 
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:100%;
+}
+#css
+{
+    border:2px solid rgb(0, 0, 0);
+    border-radius:2cm;
+    height:75%;
+    width:100%;
+    
+}
+.css 
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:100%;
+}
+.container3
+{
+    text-decoration:none;
+    text-align:center;
+   padding:15px 15px;
+   background-color: bisque;
+   
+    
+}
+.container3 h1
+{
+    text-align:center;
+    color:rgb(254, 5, 5);
+}
+.h3
+{
+    padding:10px 15px;
+}
+.app
+{
+    display:flex;
+    justify-content:space-around;
+   
+    
+   
+}
+#flutter
+{
+    width:400px;
+    height:400px;
+    border:2px solid blue;
+    border-radius:2cm;
+    
+}
+#kotlin
+{
+    width:400px;
+    height:400px;
+    border:2px solid blue;
+    border-radius:2cm;
+}
+
+.flutter
+{
+    padding:10px;
+   
+    text-align: center;
+}
+.flutter button
+{
+    border-radius:2cm;
+    padding:20px;
+    text-decoration:none;
+}
+.kotlin button
+{
+    border-radius:2cm;
+    padding:20px;
+    text-decoration:none; 
+}
+.container4
+{
+   display:flex;
+  justify-content: center;
+  background-color: beige;
+   
+}
+.comm
+{
+    padding-top:20px;
+ padding-right:200px; 
+}
+.comm h3{
+    font-size:200%;
+}
+.comm p
+{
+    text-align: center;
+    font-size:100%;
+}
+.comm a
+{
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+}
+.media h4
+{
+    font-size:150%;
+    padding-top:20px;
+    
+    
+}
+#insta
+{
+    height:50px;
+    width:50px;
+}
+#linkedin
+{
+    height:50px;
+    width:50px;
+}
+.img
+{
+   display: flex;
+   justify-content: space-between;
+    
+}
+footer
+{
+    text-align: center;
+    padding:8px;
+}
+
